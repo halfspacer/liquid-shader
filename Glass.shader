@@ -38,8 +38,6 @@ Shader "Unlit/Glass" {
 
             CBUFFER_START(UnityPerMaterial)
             half4 _TintColor;
-            half _ReflectionAmount;
-            half _BlendHeight;
             CBUFFER_END
 
             Varyings vertex_shader(Attributes attributes) {
